@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 200px;
+}
+
+.nav-title{
+   font-size: 3rem;
+   font-weight: 800;
+}
+
+.nav-title span{
+    color: rgb(253, 110, 10);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav button{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    width: 580px;
+}
+
+.banner-content h3{
+    color: rgb(71, 71, 71);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.banner-content h1{
+    color: rgb(24, 24, 24);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-content p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin: 0 5px 5px 0;
+}
+
+.btn2{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin: 5px 0 5px 0;
+}
+
+/* header and banner close */
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    margin: 50px 0;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 100px;
+}
+
+.about-info{
+    border: 1px solid;
+    width: 827px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+.about-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.about-discription{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.about-contact{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+}
+
+/* about close */
+
+
